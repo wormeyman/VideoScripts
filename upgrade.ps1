@@ -1,5 +1,5 @@
 # Upgrade youtube_dl and livestreamer in one command.
-Write-Host -ForegroundColor Green "Updating YouTube-DL Python Edition"
+Write-Host -ForegroundColor Green "Updating Python pip"
 pip install --upgrade pip
 Write-Host -ForegroundColor Green "Updating YouTube-DL Python Edition"
 pip install --upgrade youtube_dl
