@@ -14,6 +14,7 @@ $video = Read-Host 'What is the video url?'
 #.\youtube-dl.exe -U
 Write-Host -ForegroundColor Green "Updating YouTube-DL before Downloading"
 .\youtube-dl.exe -U
+Write-Host -ForegroundColor Green "Pausing for 10 seconds"
 Start-Sleep -Seconds 10
 clear
 # Download the Video
