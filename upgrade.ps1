@@ -8,4 +8,4 @@ pip install --upgrade livestreamer
 Write-Host -ForegroundColor Green "Updating YouTube-DL in Videos Folder"
 .\youtube-dl.exe -U
 Start-Sleep -s 2
-clear
+Clear-Host
