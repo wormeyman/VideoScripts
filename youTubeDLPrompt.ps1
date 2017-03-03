@@ -16,7 +16,7 @@ Write-Host -ForegroundColor Green "Updating YouTube-DL before Downloading"
 .\youtube-dl.exe -U
 Write-Host -ForegroundColor Green "Pausing for 10 seconds"
 Start-Sleep -Seconds 10
-clear
+Clear-Host
 # Download the Video
 # The --restrict-filenames gives a nice clean filename and also works better
 # with copying and pasting if there is an & in the URL
