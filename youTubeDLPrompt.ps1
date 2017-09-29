@@ -20,7 +20,7 @@ Clear-Host
 # Download the Video
 # The --restrict-filenames gives a nice clean filename and also works better
 # with copying and pasting if there is an & in the URL
-.\youtube-dl.exe --restrict-filenames $video
+.\youtube-dl.exe --ffmpeg-location .\ffmpeg\ffmpeg.exe --restrict-filenames $video
 Write-Host -ForegroundColor Green "The Script has Finished!"
 Write-Host -ForegroundColor Green "Opening Video Folder."
 Invoke-Item $PWD
