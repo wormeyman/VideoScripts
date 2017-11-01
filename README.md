@@ -13,5 +13,5 @@ PowerShell Scripts I use to make my video life easier.
 
 ## FAQ
 
-1. Why did you spell it `VIdeoScripts`
-  1. Typo :(
+- Q: Why did you spell it `VIdeoScripts`
+  - A: Typo :(
