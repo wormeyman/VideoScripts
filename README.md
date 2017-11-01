@@ -1,15 +1,17 @@
 # VideoScripts
+
 PowerShell Scripts I use to make my video life easier.
 
 - `ffmpeg--prores-convert-script.ps1`
-	- Use this to convert files to prores i use this a lot for security footage and other difficult to use files
+  - Use this to convert files to prores i use this a lot for security footage and other difficult to use files
 - `upgrade.ps1`
-	- I use this to upgrade all my video binaries except ffmpeg
+  - I use this to upgrade all my video binaries except ffmpeg
 - `windowsLiveStreamer.ps1`
-	- I use this to stream Twitch into VLC
+  - I use this to stream Twitch into VLC
 - `youTubeDLPrompt.ps1`
-	- I use this to download YouTube videos, very useful if you need to play a file offline at a conference for a presentation.
+  - I use this to download YouTube videos, very useful if you need to play a file offline at a conference for a presentation.
 
-#FAQ
+## FAQ
+
 1. Why did you spell it `VIdeoScripts`
-	1. Typo :(
+  1. Typo :(
