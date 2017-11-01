@@ -1,3 +1,4 @@
+# Updated: 2017-11-01 13:38:50
 # Download the Windows binary: http://rg3.github.io/youtube-dl/download.html
 # This script needs to be in the same folder as youtube-dl.exe
 # --
