@@ -4,6 +4,6 @@ $video = Read-Host 'What is the video url?'
 # Update LiveStream
 Write-Host -ForegroundColor Green "Updating livestreamer"
 pip install --upgrade livestreamer
-clear
+Clear-Host
 # Watch the Stream
 livestreamer --verbose-player --player "'C:\Program Files\VideoLAN\VLC\vlc.exe' --file-caching=5000" --default-stream best $video
