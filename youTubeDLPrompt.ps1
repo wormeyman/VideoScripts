@@ -1,9 +1,12 @@
-# Updated: 2017-11-01 13:38:50
-# Download the Windows binary: http://rg3.github.io/youtube-dl/download.html
+# Updated: 2018-02-22 14:36:34
+# Download the Windows binary: https://rg3.github.io/youtube-dl/download.html
 # This script needs to be in the same folder as youtube-dl.exe
 # --
 # Some websites require FFmpeg binaries to be in the same folder as well.
-# http://ffmpeg.zeranoe.com/builds/win32/static/ffmpeg-latest-win32-static.7z
+# 32 bit:
+# http://ffmpeg.zeranoe.com/builds/win32/static/ffmpeg-latest-win32-static.zip
+# 64 bit:
+# https://ffmpeg.zeranoe.com/builds/win64/static/ffmpeg-latest-win64-static.zip
 # --
 # Allow powershell scripts:
 # Set-ExecutionPolicy -ExecutionPolicy Unrestricted -Scope CurrentUser
