@@ -51,3 +51,5 @@ Temporary Items
 *.flv
 *.webm
 *.mkv
+*.part
+*.ytdl
