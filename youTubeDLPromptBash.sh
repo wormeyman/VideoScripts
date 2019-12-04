@@ -5,5 +5,6 @@ read -p "What is the video url?  " video
 echo "Updating YouTube-DL before Downloading"
 pip install --upgrade pip youtube-dl ffmpeg
 echo "Downloading Video"
-youtube-dl -o "~/storage/downloads/%(title)s.%(ext)s" --restrict-filenames $video
+# youtube-dl -o "~/storage/downloads/%(title)s.%(ext)s" --restrict-filenames
+youtube-dl -o '~/storage/downloads/%(title)s-%(id)s.%(ext)s' $video --restrict-filenames
 echo "The Script has Finished!"
