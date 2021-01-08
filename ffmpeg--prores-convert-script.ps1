@@ -8,7 +8,7 @@
 # Prompt for the video URL
 $video = Read-Host 'What is the video?'
 #$name = Read-Host 'Exported Name without any extensions'
-.\ffmpeg\ffmpeg.exe -i $video -vcodec prores -profile:v 3 _prorestemp.MOV
+.\ffmpeg\bin\ffmpeg.exe -i $video -vcodec prores -profile:v 3 _prorestemp.MOV
 Rename-Item _prorestemp.MOV -NewName ("$video" + "_prores.MOV")
 Write-Host -ForegroundColor Green "The Script has Finished!"
 Write-Host -ForegroundColor Green "Opening Video Folder."
