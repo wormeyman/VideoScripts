@@ -53,3 +53,5 @@ Temporary Items
 *.mkv
 *.part
 *.ytdl
+youtube-dl-updater.bat
+youtube-dl.exe.new
