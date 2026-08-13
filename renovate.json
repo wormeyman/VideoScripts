@@ -2,5 +2,10 @@
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
     "config:recommended"
-  ]
+  ],
+  "minimumReleaseAge": "48 hours",
+  "vulnerabilityAlerts": {
+    "minimumReleaseAge": "25 hours"
+  },
+  "osvVulnerabilityAlerts": true
 }
