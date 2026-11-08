@@ -5,8 +5,7 @@
   ],
   "timezone": "America/Los_Angeles",
   "schedule": [
-    "* 12-23 * * 0",
-    "* 0-11 * * 1"
+    "* * * * 4,5"
   ],
   "minimumReleaseAge": "48 hours",
   "vulnerabilityAlerts": {
